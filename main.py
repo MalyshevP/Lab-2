@@ -26,13 +26,13 @@ class SMTPAutorizationWindow(object):
         self.l_login = tk.Label(top, text="Логин")
         self.l_login.pack()
         self.e_login = tk.Entry(top)
-        self.e_login.insert(0, "test.tiguard@gmail.com")
+        self.e_login.insert(0, "test@gmail.com")
         self.e_login.pack()
 
         self.l_pswrd = tk.Label(top, text="Пароль")
         self.l_pswrd.pack()
         self.e_pswrd = tk.Entry(top, show="*")
-        self.e_pswrd.insert(0, "d1532684")
+        self.e_pswrd.insert(0, "pass")
         self.e_pswrd.pack()
 
         self.b = tk.Button(self.top, text='OK', command=self.ok)
@@ -67,13 +67,13 @@ class IMAPAutorizationWindow(object):
         self.l_login = tk.Label(top, text="Логин")
         self.l_login.pack()
         self.e_login = tk.Entry(top)
-        self.e_login.insert(0, "test.tiguard@gmail.com")
+        self.e_login.insert(0, "test@gmail.com")
         self.e_login.pack()
 
         self.l_pswrd = tk.Label(top, text="Пароль")
         self.l_pswrd.pack()
         self.e_pswrd = tk.Entry(top, show="*")
-        self.e_pswrd.insert(0, "d1532684")
+        self.e_pswrd.insert(0, "pass")
         self.e_pswrd.pack()
 
         self.b = tk.Button(self.top, text='OK', command=self.ok)
